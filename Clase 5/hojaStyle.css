@@ -1,0 +1,91 @@
+.contenedor{
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgb(148, 149, 151);
+    padding: 20px;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sinerror{
+    border: 1px solid #ccc;
+}
+
+.error{
+
+}
+
+.button{
+    background-color: rgb(216, 127, 212);
+    border: none;
+    width: 100%;
+    color: rgb(241, 234, 238);
+    padding: 15px 32px;
+    margin: 6px 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: indianred;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: mediumorchid;
+}
+
+th{
+    background-color: lightslategray;
+    color: rgb(246, 246, 248);
+}
+
+.container{
+    border: 3px solid rgb(103, 27, 122);
+    display: flex;
+}
+
+.initial{
+    flex: initial;
+    border: 3px solid rgb(236, 129, 218);
+    width: 200px;
+    min-width: 100px;
+}
+
+.none{
+    flex: none;
+    border: 3px solid rgb(236, 129, 218);
+    width: 200px;
+}
+
+.flex1{
+    flex: auto;
+    border: 3px solid rgb(236, 129, 218);
+    width: 200px;
+}
+ 
+.final{
+    flex: content;
+    border: 3px solid rgb(236, 129, 218);
+    width: 200px;
+}

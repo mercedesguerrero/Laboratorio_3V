@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript">
+        //Código javascript va aca
+
+        window.onload=
+        function(){
+
+            var a;
+
+            a= "String";
+            a= 2;
+            a= true;
+
+            function Sumar (num, num2)
+            {
+                num + num2;
+            }
+
+            var rest= Sumar("Hola", 2);
+            //console.log(rest);
+
+            var inputTexto= document.getElementById("txtNombre");
+            console.log(inputTexto.value);
+
+            var btnEnviar= document.getElementById("btnEnviar");
+            btnEnviar.onclick= function(){
+                alert("Se hizo clic!!!");
+            }
+
+        }
+
+    </script>
+    <title>CLASE 1</title>
+</head>
+<body>
+    <h1>Clase 1</h1>
+    
+    <label for="txtNombre">Usuario:</label> 
+    <br>
+    <input type="text" name="txtNombre" id="" >
+    <br>
+    <label for="">Contraseña:</label>
+    <br>
+    <input type="password">
+    
+    <br>
+    <input type="checkbox" value="0" name="ck1" id="" checked>Recordar y usar contraseña
+
+    <br>
+    <input type="button" value="Enviar" id="btnEnviar">
+    
+    <input type="button" value="Limpiar">
+
+    <!--Esto es un comentario-->
+
+    
+
+    <br>
+
+</body>
+</html>
