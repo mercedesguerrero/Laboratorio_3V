@@ -184,8 +184,6 @@ app.get("/personas",function(req,res){
 
         return;
    
-   
-    
 });
 
 app.post("/loginUsuario",function(req,res){

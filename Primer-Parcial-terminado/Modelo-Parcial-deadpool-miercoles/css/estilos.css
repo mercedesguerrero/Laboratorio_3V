@@ -1,0 +1,215 @@
+body
+{
+    z-index: -2;
+    
+}
+.frmAlta{
+
+    width: 40%;
+    height: 400px;
+    top: 100px;
+    left: 30%;
+    border-radius: 50px;
+    color:rgb(251, 252, 220);
+    background-image: url("../images/got6.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(202, 115, 2, 0.301);
+    position: absolute;
+
+    -webkit-animation-name: animacionForm;
+    -webkit-animation-duration: 3s; 
+    animation-name: animacionForm 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation-duration: 2s;
+    
+}
+
+
+
+.frmAlta table
+{
+    position: relative;
+    right: 20%;
+}
+
+form table{
+
+    vertical-align: center;
+    margin-left: 36%;
+    margin-top: 8%;
+    background-color: rgba(73, 1, 29, 0.8);
+    transition: background-color 1.0s ease-in-out;
+    border-radius: 50px;
+    padding: 45px 80px;   
+
+}
+
+body{
+
+    background-color: rgba(224, 49, 87, 0.589);
+    background-image: linear-gradient(to top, rgba(206, 121, 121, 0), rgb(63, 6, 6));
+    padding-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+#tablaLista{
+    border: 1px solid rgb(110, 9, 9);
+    width: 50%;
+}
+
+#bodyTabla{
+    text-align: center;
+    border: 1px solid rgb(175, 0, 0);
+}
+
+#logo{
+    width: 500px;    
+    position: relative;
+    top: 50px;
+    left: 30px;
+    
+}
+
+header{
+    
+    margin-top: 120px;
+    width: 100%;    
+    height: 380px;    
+    position: relative;
+    left: 5%;
+    background-image: url("../images/got1.png");
+    background-repeat: no-repeat;
+}
+ 
+h2{
+    color:rgb(99, 28, 28);
+    vertical-align: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(221, 123, 123);
+    text-align: center;
+    background-color: rgba(82, 7, 7, 0.7);
+    transition: background-color 1.0s ease-in-out;
+    display: block;
+}
+
+#tablaLista{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+nav{
+    background-color: rgb(88, 10, 0);
+    padding: 15px;
+}
+
+#tablaLista tr{
+    background-color: rgb(228, 197, 203);
+    transition: background-color 0.5s ease-in-out;
+}
+
+#tablaLista th{
+    background-color: rgb(90, 6, 6);
+    color:  rgb(240, 220, 224);
+}
+
+#tablaLista tr:hover
+{
+    background-color:  rgb(182, 6, 41);
+}
+
+.btnAlta{
+
+    border-radius: 5px;
+    background-color: rgb(228, 197, 203);
+    transition: background-color 0.7s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnAlta:hover
+{
+    background-color: rgba(226, 24, 64, 0.945);
+}
+
+.puntero{
+
+    border-radius: 5px;
+    background-color: rgb(228, 197, 203);
+    transition: background-color 0.7s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+
+.btnForm
+{
+    border-radius: 5px;
+    background-color: rgb(228, 197, 203);
+    transition: background-color 0.7s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnForm:hover
+{
+    background-color: rgba(226, 24, 64, 0.945);
+}
+
+#spinner
+{
+    position: relative;
+    padding: 20px;
+    left: 50%;
+    z-index: 2;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+a:link {
+    color: rgb(202, 108, 108);
+  }
+  
+  a:visited {
+    color: rgb(211, 216, 168);
+  }
+  
+  a:hover {
+    color: rgb(224, 163, 163);
+  }
+  
+  a:active {
+    color: rgb(231, 177, 96);
+  }
+
+
+
+  /* Standard syntax */
+  @keyframes animacionForm {
+    from {background-color: rgba(155, 0, 0, 0.699);}  
+        
+    0%   {left:30%; top:400px;transform: translateZ(-400);}
+    15%  {left:30%; top:75px;}
+    30%  {left:30%; top:100px;}
+    45%  {background-color: rgba(240, 52, 6, 0.623); left:30%; top:85px;}
+    60%  {left:30%; top:100px;}
+    75%  {left:30%; top:95px;}
+    100% {left:30%; top:100px;}
+    to {background-color: rgba(223, 89, 0, 0.623);transform: translateZ(0);}
+  }
+
+  
